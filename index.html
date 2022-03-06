@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array_Mehod</title>
+    <script src="script.js"></script>
+    <style>
+        html {
+            font-family: sans-serif;
+        }
+
+        form {
+            width: 600px;
+            margin: 0 auto;
+        }
+
+        div {
+            margin-bottom: 10px;
+        }
+
+        fieldset {
+            background: #4a809d;
+            border: 5px solid #bda98c;
+            background-image: url(bg-image2.jpg);
+            background-repeat: no-repeat;
+            background-size: 700px 940px;
+            color: white;
+        }
+
+        legend {
+            padding: 10px;
+            background: #dfcf76;
+            color: rgb(37, 55, 55);
+        }
+
+        .Sec1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #808080;
+            background-color: #000000;
+            position: sticky;
+            top: 0;
+        }
+
+        .Sec1 p {
+            font-size: x-large;
+            color: white;
+        }
+
+        .sec2 .uppersec2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 2px solid #e2e458;
+            background-color: darksalmon;
+            margin-top: 1rem;
+        }
+
+        .sec2 .midsec2 {
+            border: 2px solid #b6d63e;
+            background-color: rgb(223, 143, 143);
+        }
+
+        .sec2 .para1 {
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: italic;
+        }
+
+        .sec2 .midsec2 #para2 {
+            font-size: 15px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            background-image: url(bg-image1.jpg);
+            background-repeat: no-repeat;
+            background-size: 1350px 1500px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <span class="Sec1">
+            <p>✨ Array Method of Js</p>
+        </span>
+        <div class="sec2">
+            <div class="uppersec2">
+                <p class="para1">This is uppersec2 para</p>
+                <button id="btn">click here</button>
+            </div>
+            <div class="midsec2">
+                <p class="para1">The JavaScript Array</p>
+                <p id="para2">In programming, an array is a collection of elements or items. Arrays store data as
+                    elements and retrieve them back when you need them. The array data structure is widely used in all
+                    programming languages that support it.</p>
+            </div>
+            <div class="lowersec2">
+                <form>
+                    <fieldset>
+                        <legend>✨Array Method</legend>
+                        <div>
+                            <input type="checkbox" id="coding" name="interest" value="coding">
+                            <label for="coding">.concat()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="music" name="interest" value="music">
+                            <label for="music">.copywithin()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="art" name="interest" value="art">
+                            <label for="art">.entries()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="sports" name="interest" value="sports">
+                            <label for="sports">.every()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cooking" name="interest" value="cooking">
+                            <label for="cooking">.fill()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cooking" name="interest" value="cooking">
+                            <label for="cooking">.filter()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cooking" name="interest" value="cooking">
+                            <label for="cooking">.find()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cooking" name="interest" value="cooking">
+                            <label for="cooking">.findIndex()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cooking" name="interest" value="cooking">
+                            <label for="cooking">.forEach()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cooking" name="interest" value="cooking">
+                            <label for="cooking">.form()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cooking" name="interest" value="cooking">
+                            <label for="cooking">.includes()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cooking" name="interest" value="cooking">
+                            <label for="cooking">.indexof()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cooking" name="interest" value="cooking">
+                            <label for="cooking">isArray()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cooking" name="interest" value="cooking">
+                            <label for="cooking">.join()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cooking" name="interest" value="cooking">
+                            <label for="cooking">.keys()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cooking" name="interest" value="cooking">
+                            <label for="cooking">.lastindexOf()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cooking" name="interest" value="cooking">
+                            <label for="cooking">.map()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cooking" name="interest" value="cooking">
+                            <label for="cooking">.pop()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cooking" name="interest" value="cooking">
+                            <label for="cooking">.push()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cooking" name="interest" value="cooking">
+                            <label for="cooking">.reduce()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cooking" name="interest" value="cooking">
+                            <label for="cooking">.reduceRight()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cooking" name="interest" value="cooking">
+                            <label for="cooking">.reverse()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cooking" name="interest" value="cooking">
+                            <label for="cooking">.shift()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cooking" name="interest" value="cooking">
+                            <label for="cooking">.slice()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cooking" name="interest" value="cooking">
+                            <label for="cooking">.some()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cooking" name="interest" value="cooking">
+                            <label for="cooking">.sort()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cooking" name="interest" value="cooking">
+                            <label for="cooking">.toString()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cooking" name="interest" value="cooking">
+                            <label for="cooking">.unshift()</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cooking" name="interest" value="cooking">
+                            <label for="cooking">.valueOf()</label>
+                        </div>
+                        <div>
+                            <button type="submit">Submit form</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
